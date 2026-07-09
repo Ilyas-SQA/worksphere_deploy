@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 581">
+  <defs>
+    <linearGradient id="sleft" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0%" stop-color="#A6E886"/>
+      <stop offset="38%" stop-color="#7ED957"/>
+      <stop offset="100%" stop-color="#2E6B18"/>
+    </linearGradient>
+    <linearGradient id="sright" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0%" stop-color="#8FE06A"/>
+      <stop offset="42%" stop-color="#6BC948"/>
+      <stop offset="100%" stop-color="#246012"/>
+    </linearGradient>
+    <linearGradient id="shead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9FE47C"/>
+      <stop offset="100%" stop-color="#6BC948"/>
+    </linearGradient>
+    <linearGradient id="sdiamond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B7EE9C"/>
+      <stop offset="100%" stop-color="#7ED957"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(300 26) scale(1.5)">
+  <g>
+    <path d="M30 86 L66 168 L100 110" fill="none" stroke="url(#sleft)" stroke-width="33" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 110 L134 168 L170 86" fill="none" stroke="url(#sright)" stroke-width="33" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="86" y="96" width="28" height="28" rx="5" transform="rotate(45 100 110)" fill="url(#sdiamond)"/>
+    <circle cx="33" cy="52" r="16" fill="url(#shead)"/>
+    <circle cx="167" cy="52" r="16" fill="url(#shead)"/>
+  </g>
+  </g>
+  <text x="155" y="410" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="104" fill="#FFFFFF" letter-spacing="-2">Work<tspan font-weight="500">Sphere</tspan></text>
+  <text x="190" y="512" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="32" fill="#B7EE9C" letter-spacing="8">CONNECT · WORK · GROW</text>
+</svg>

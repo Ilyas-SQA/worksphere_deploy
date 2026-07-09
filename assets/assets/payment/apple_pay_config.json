@@ -1,0 +1,14 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.com.worksphere.app",
+    "displayName": "WorkSphere",
+    "merchantCapabilities": ["3DS", "debit", "credit"],
+    "supportedNetworks": ["visa", "masterCard", "amex", "discover"],
+    "countryCode": "US",
+    "currencyCode": "USD",
+    "requiredBillingContactFields": ["emailAddress", "name", "phoneNumber", "postalAddress"],
+    "requiredShippingContactFields": []
+  }
+}
+
